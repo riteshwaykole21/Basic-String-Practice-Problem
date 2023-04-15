@@ -11,6 +11,7 @@ namespace StringProblem
         static void Main(string[] args)
         {
             Console.WriteLine("1 : Input String And Print it");
+            Console.WriteLine("2 : Lenght Of A string");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -18,6 +19,10 @@ namespace StringProblem
                 case 1:
                     Print print = new Print();
                     print.Input();
+                    break;
+                case 2:
+                    StringLength stringLength = new StringLength();
+                    stringLength.Input(); 
                     break;
             }
             Console.ReadLine();
