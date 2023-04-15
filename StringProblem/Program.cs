@@ -12,6 +12,7 @@ namespace StringProblem
         {
             Console.WriteLine("1 : Input String And Print it");
             Console.WriteLine("2 : Lenght Of A string");
+            Console.WriteLine("3 : Seperate Character ");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -23,6 +24,10 @@ namespace StringProblem
                 case 2:
                     StringLength stringLength = new StringLength();
                     stringLength.Input(); 
+                    break;
+                case 3:
+                    SeparateChar separateChar = new SeparateChar();
+                    separateChar.Input();   
                     break;
             }
             Console.ReadLine();
