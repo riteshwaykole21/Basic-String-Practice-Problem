@@ -13,6 +13,7 @@ namespace StringProblem
             Console.WriteLine("1 : Input String And Print it");
             Console.WriteLine("2 : Lenght Of A string");
             Console.WriteLine("3 : Seperate Character ");
+            Console.WriteLine("4 : Reverse Order Of String");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -28,6 +29,10 @@ namespace StringProblem
                 case 3:
                     SeparateChar separateChar = new SeparateChar();
                     separateChar.Input();   
+                    break;
+                case 4:
+                    ReverseOrder reverseOrder = new ReverseOrder();
+                    reverseOrder.Input();
                     break;
             }
             Console.ReadLine();
