@@ -43,12 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CountNumber.cs" />
     <Compile Include="Print.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseOrder.cs" />
     <Compile Include="SeparateChar.cs" />
     <Compile Include="StringLength.cs" />
+    <Compile Include="StrtingDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

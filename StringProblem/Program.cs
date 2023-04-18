@@ -14,6 +14,8 @@ namespace StringProblem
             Console.WriteLine("2 : Lenght Of A string");
             Console.WriteLine("3 : Seperate Character ");
             Console.WriteLine("4 : Reverse Order Of String");
+            Console.WriteLine("5 : Count The Number Of String");
+            Console.WriteLine("6 : Demo ");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -33,6 +35,14 @@ namespace StringProblem
                 case 4:
                     ReverseOrder reverseOrder = new ReverseOrder();
                     reverseOrder.Input();
+                    break;
+                case 5:
+                    CountNumber countNumber = new CountNumber();
+                    countNumber.Number();
+                    break;
+                case 6:
+                    StrtingDemo strtingDemo = new StrtingDemo();
+                    strtingDemo.Demo();
                     break;
             }
             Console.ReadLine();
