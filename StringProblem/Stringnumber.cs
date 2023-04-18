@@ -1,27 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Services;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace StringProblem
 {
-    public class StrtingDemo
+    public class Stringnumber
     {
-        public void Demo()
+        public void Number()
         {
-            Console.WriteLine("Enter a One string");
+            Console.WriteLine("Enter A One String");
             string Name = Console.ReadLine();
-            int i = 0;
             int wrd = 1;
-            int l = 0;
-            while (l <= Name.Length - 1)
+            for (int i = 0; i <= Name.Length - 1; i++)
             {
-                if (Name[l] == ' ' || Name[l] == '\n' || Name[l] == '\t')
+                if (Name[i] == ' ' || Name[i] == '\n' || Name[i] == '\t')
                 {
                     wrd++;
                 }
-                l++;
             }
             Console.WriteLine($"Total Number Of In Strings Are : {wrd}");
         }
