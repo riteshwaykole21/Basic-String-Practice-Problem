@@ -18,6 +18,7 @@ namespace StringProblem
             Console.WriteLine("6 : Demo ");
             Console.WriteLine("7 : Number Of String ");
             Console.WriteLine("8 : Count Total Special Character");
+            Console.WriteLine("9 : Copy one String Two Another");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -53,6 +54,10 @@ namespace StringProblem
                 case 8:
                     CountChar countChar = new CountChar();
                     countChar.Number(); 
+                    break;
+                case 9:
+                    CopyOneToSecomnd copyOneToSecomnd = new CopyOneToSecomnd();
+                    copyOneToSecomnd.Number();
                     break;
             }
             Console.ReadLine();

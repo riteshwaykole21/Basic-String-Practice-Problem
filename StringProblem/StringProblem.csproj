@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CopyOneToSecomnd.cs" />
     <Compile Include="CountChar.cs" />
     <Compile Include="CountNumber.cs" />
     <Compile Include="Print.cs" />
