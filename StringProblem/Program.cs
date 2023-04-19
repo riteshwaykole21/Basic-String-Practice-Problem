@@ -19,6 +19,7 @@ namespace StringProblem
             Console.WriteLine("7 : Number Of String ");
             Console.WriteLine("8 : Count Total Special Character");
             Console.WriteLine("9 : Copy one String Two Another");
+            Console.WriteLine("10 : Vowels And Constances From String");
             Console.WriteLine("Enter A Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -58,6 +59,10 @@ namespace StringProblem
                 case 9:
                     CopyOneToSecomnd copyOneToSecomnd = new CopyOneToSecomnd();
                     copyOneToSecomnd.Number();
+                    break;
+                case 10:
+                    VowelOrConstants vowelOrConstants = new VowelOrConstants();
+                    vowelOrConstants.Numbers();
                     break;
             }
             Console.ReadLine();

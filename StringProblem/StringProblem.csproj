@@ -54,6 +54,7 @@
     <Compile Include="StringLength.cs" />
     <Compile Include="Stringnumber.cs" />
     <Compile Include="StrtingDemo.cs" />
+    <Compile Include="VowelOrConstants.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
